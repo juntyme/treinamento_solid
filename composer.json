@@ -1,0 +1,16 @@
+{
+    "name": "user/solid",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "User\\Solid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonas Ferreira",
+            "email": "suporte@yesflex.com.br"
+        }
+    ],
+    "require": {}
+}
