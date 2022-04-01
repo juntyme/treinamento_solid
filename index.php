@@ -65,6 +65,12 @@ echo $pedido->getStatus();
 echo '<h4>Confirmar pedido</h4>';
 echo $pedido->confirmar();
 
+//-----------------------------
+echo '<h4>E-mail</h4>';
+if ($pedido->getStatus() == 'confirmado') {
+    echo EmailService::dispararEmail();
+}
+
 
 // print_r($carrinho1->exibirItens());
 // echo 'Valor total: ' . $carrinho1->exibirValorTotal();
