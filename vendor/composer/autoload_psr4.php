@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'User\\Solid\\' => array($baseDir . '/src'),
+    'App\\' => array($baseDir . '/src'),
 );

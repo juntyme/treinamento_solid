@@ -3,7 +3,8 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "User\\Solid\\": "src/"
+            "User\\Solid\\": "src/",
+            "App\\": "src/"
         }
     },
     "authors": [

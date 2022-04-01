@@ -11,6 +11,10 @@ class ComposerStaticInit1050810cdfbefe223e294d8cd9942386
         array (
             'User\\Solid\\' => 11,
         ),
+        'A' => 
+        array (
+            'App\\' => 4,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -18,9 +22,14 @@ class ComposerStaticInit1050810cdfbefe223e294d8cd9942386
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
     );
 
     public static $classMap = array (
+        'App\\CarrinhoCompra' => __DIR__ . '/../..' . '/src/CarrinhoCompra.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
